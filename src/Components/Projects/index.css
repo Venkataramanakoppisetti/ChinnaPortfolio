@@ -1,0 +1,223 @@
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+  padding-top: 10px;
+  background: var(--bg-gray, #f9faff);
+  background-size: cover;
+  background-image: url('https://img.freepik.com/free-photo/abstract-textured-backgound_1258-30436.jpg?w=740&t=st=1704729063~exp=1704729663~hmac=9d6a1c53cde821a127250f0bef6a0cd6d6aae91a7efd8a2c0fde3997ed8a7517');
+}
+
+.projects-heading {
+  color: var(--font-high-emphasis, #09d5e4);
+  text-align: center;
+
+  /* title / h2 */
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 767px) {
+  .projects-heading {
+    font-size: 24px;
+  }
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-project-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.add-project-heading {
+  color: var(--font-high-emphasis, #09d5e4);
+  text-align: center;
+
+  /* title / h2 */
+  font-family: Playfair Display;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 75px;
+}
+
+@media screen and (max-width: 767px) {
+  .add-project-heading {
+    font-size: 24px;
+  }
+}
+
+.add-project-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+}
+
+.project-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .project-input-container {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.name-link-label {
+  color: var(--font-high, #086ed4);
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+@media screen and (max-width: 767px) {
+  .name-link-label {
+    font-size: 12px;
+  }
+}
+
+.project-input-field {
+  width: 400px;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid #e8ecf4;
+  background: var(--bg-white, #fff);
+}
+
+@media screen and (max-width: 767px) {
+  .project-input-field {
+    width: 280px;
+  }
+}
+
+.project-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+@media screen and (max-width: 767px) {
+  .project-description-container {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
+
+.project-description-field {
+  width: 400px;
+  height: 160px;
+  border-radius: 8px;
+  border: 1px solid #e8ecf4;
+  background: var(--bg-white, #fff);
+}
+
+@media screen and (max-width: 767px) {
+  .project-description-field {
+    width: 280px;
+  }
+}
+.add-project-button {
+  height: 45px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-width: 1px;
+}
+
+@media screen and (max-width: 767px) {
+  .add-project-button {
+    height: 35px;
+    width: 60px;
+    font-size: 10px;
+    margin-right: 25px;
+  }
+}
+
+.add-project-button:hover {
+  height: 45px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: #dc5d19;
+  box-shadow: #dc5d19 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.add-project-button:active {
+  height: 45px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: #dc5d19;
+  box-shadow: #dc5d19 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+  transform: translateY(10px);
+}
+
+.save-projects-button {
+  height: 45px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-width: 1px;
+}
+
+@media screen and (max-width: 767px) {
+  .save-projects-button {
+    height: 35px;
+    width: 60px;
+    font-size: 10px;
+  }
+}
+
+.save-projects-button:hover {
+  height: 45px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: #26db0e;
+  box-shadow: #26db0e 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.save-projects-button:active {
+  height: 45px;
+  width: 90px;
+  border-radius: 5px;
+  background-color: #26db0e;
+  box-shadow: #26db0e 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+  transform: translateY(10px);
+}

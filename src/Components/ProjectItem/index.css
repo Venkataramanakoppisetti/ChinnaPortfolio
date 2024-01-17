@@ -1,0 +1,189 @@
+.project-item-container {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+  width: 80vw;
+  background-color: #e28a16;
+  margin-bottom: 20px;
+  box-shadow: rgb(143, 139, 139) 1px 1px 1px 1px;
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .project-item-container {
+    height: 40vh;
+    margin-right: 53px;
+  }
+}
+
+.project-content-container {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  width: 40vw;
+  margin: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .project-content-container {
+    height: 18vh;
+    margin: 15px;
+  }
+}
+
+.project-image {
+  height: 50vh;
+  width: 25vw;
+}
+
+@media screen and (max-width: 767px) {
+  .project-image {
+    height: 40vh;
+    width: 35vw;
+  }
+}
+
+.buttons-container {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .buttons-container {
+    margin-top: 5px;
+    display: flex;
+    margin-right: 4px;
+  }
+}
+
+.view-project-button {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-width: 0;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .view-project-button {
+    height: 25px;
+    width: 50px;
+    font-size: 7px;
+  }
+}
+
+.view-project-button:hover {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #37e70a;
+  box-shadow: #5ebb46 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.view-project-button:active {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #dc5d19;
+  box-shadow: #dc5d19 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+  transform: translateY(10px);
+}
+
+.delete-project-button {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #000000;
+  color: #ffffff;
+  margin-right: 10px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-width: 0;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 767px) {
+  .delete-project-button {
+    height: 25px;
+    width: 50px;
+    font-size: 7px;
+    margin-top: 5px;
+  }
+}
+
+.delete-project-button:hover {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+  background-color: #ee0808;
+  box-shadow: #ee0808 0px 7px 29px 0px;
+  color: white;
+  letter-spacing: 1.5px;
+}
+
+.delete-project-button:active {
+  height: 45px;
+  width: 80px;
+  border-radius: 5px;
+
+  color: white;
+  letter-spacing: 1.5px;
+  transform: translateY(10px);
+}
+
+.project-title {
+  color: var(--font-high-emphasis, #25282b);
+  font-family: Playfair Display;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .project-title {
+    font-size: 12px;
+  }
+}
+
+.project-category {
+  color: var(--font-high-emphasis, #25282b);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .project-category {
+    font-size: 12px;
+  }
+}
+
+.project-description {
+  color: var(--font-medium-emphasis, #1b1919);
+  font-family: Nunito;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .project-description {
+    font-size: 7px;
+  }
+}
