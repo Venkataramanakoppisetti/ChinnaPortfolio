@@ -108,11 +108,15 @@
   padding: 0px;
 }
 
-.nav-menu-item {
-  font-family: 'Roboto';
+.nav-menu-item-large {
   margin: 10px;
+  font-family: 'Roboto';
   font-weight: bold;
-  font-size: 16px;
+  color: #475569;
+}
+
+.nav-menu-item-mobile {
+  margin-bottom: 0;
 }
 
 .nav-link {
@@ -128,4 +132,15 @@
   align-items: center;
   text-decoration: none;
   color: #e05413;
+}
+
+.nav-option-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-option {
+  font-family: 'Roboto';
+  font-size: 6px;
+  margin-top: 2px;
 }

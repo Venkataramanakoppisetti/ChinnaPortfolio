@@ -66,9 +66,7 @@ class Projects extends Component {
 
   loadProjectsData = () => {
     const savedProjectsData = localStorage.getItem(STORAGE_KEY)
-    initialProjectsList = savedProjectsData
-      ? JSON.parse(savedProjectsData)
-      : null
+    initialProjectsList = savedProjectsData ? JSON.parse(savedProjectsData) : []
 
     this.setState({projectsList: initialProjectsList})
   }

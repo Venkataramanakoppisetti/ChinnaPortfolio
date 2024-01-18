@@ -1,4 +1,7 @@
 import {Link} from 'react-router-dom'
+import {IoIosHome} from 'react-icons/io'
+import {FcAbout} from 'react-icons/fc'
+import {GrProjects} from 'react-icons/gr'
 import './index.css'
 
 const Header = () => (
@@ -12,18 +15,18 @@ const Header = () => (
         />
         <h1 className="my-name">Venkata Ramana</h1>
         <ul className="nav-menu">
-          <li className="nav-menu-item">
+          <li className="nav-menu-item-large">
             <Link to="/" className="nav-link">
               Home
             </Link>
           </li>
-          <li className="nav-menu-item">
+          <li className="nav-menu-item-large">
             <Link to="/about" className="nav-link">
               About
             </Link>
           </li>
 
-          <li className="nav-menu-item">
+          <li className="nav-menu-item-large">
             <Link to="/projects" className="nav-link">
               Projects
             </Link>
@@ -33,15 +36,30 @@ const Header = () => (
     </div>
     <div className="nav-menu-mobile">
       <ul className="mobile-header-container">
-        <Link to="/" className="nav-link">
-          <li className="nav-menu-item">Home</li>
-        </Link>
-        <Link to="/about" className="nav-link">
-          <li className="nav-menu-item">About</li>
-        </Link>
-        <Link to="/projects" className="nav-link">
-          <li className="nav-menu-item">Projects</li>
-        </Link>
+        <div className="nav-option-container">
+          <Link to="/" className="nav-link">
+            <li className="nav-menu-item-mobile">
+              <IoIosHome />
+            </li>
+          </Link>
+          <p className="nav-option">Home</p>
+        </div>
+        <div className="nav-option-container">
+          <Link to="/about" className="nav-link">
+            <li className="nav-menu-item-mobile">
+              <FcAbout />
+            </li>
+          </Link>
+          <p className="nav-option">About</p>
+        </div>
+        <div className="nav-option-container">
+          <Link to="/projects" className="nav-link">
+            <li className="nav-menu-item-mobile">
+              <GrProjects />
+            </li>
+          </Link>
+          <p className="nav-option">Projects</p>
+        </div>
       </ul>
     </div>
   </nav>
